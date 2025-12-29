@@ -1,5 +1,56 @@
 [
   {
+    "id": "11f3b580-8ce4-4fcf-b750-4eb2f7c28bef",
+    "name": "AngelList VDP",
+    "offers_awards": false,
+    "url": "https://www.federacy.com/angellist-vdp",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "*.angellist.com"
+        }
+      ],
+      "out_of_scope": [
+        {
+          "type": "website",
+          "target": "Wellfound"
+        },
+        {
+          "type": "website",
+          "target": "*.relay.angellist.com"
+        },
+        {
+          "type": "website",
+          "target": "relay.angellist.com"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b6d8dffd-33de-4ec9-849a-f98f42270b2d",
+    "name": "Archive-Intel-Inc",
+    "offers_awards": false,
+    "url": "https://www.federacy.com/archive-intel-inc",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "website",
+          "target": "https://app.archiveintel.com/forgot-password"
+        },
+        {
+          "type": "website",
+          "target": "https://archiveintel.com"
+        },
+        {
+          "type": "website",
+          "target": "https://app.archiveintel.com/login"
+        }
+      ],
+      "out_of_scope": []
+    }
+  },
+  {
     "id": "a25fbd69-4564-46c3-a8fa-e902a586ca89",
     "name": "Belvo Technologies Inc.",
     "offers_awards": true,
@@ -29,6 +80,14 @@
         {
           "type": "api",
           "target": "identity.belvo.com"
+        },
+        {
+          "type": "website",
+          "target": "portal.sandbox.directdebit.belvo.com"
+        },
+        {
+          "type": "api",
+          "target": "api.sandbox.directdebit.belvo.com"
         }
       ],
       "out_of_scope": [
@@ -48,47 +107,6 @@
           "type": "website",
           "target": "https://institutions.belvo.com"
         }
-      ]
-    }
-  },
-  {
-    "id": "82e560c7-2164-4ffe-8c7d-30c6edc8cb10",
-    "name": "Bitski",
-    "offers_awards": true,
-    "url": "https://www.federacy.com/bitski",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "api",
-          "target": "api.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "www.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "wallet.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "user.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "account.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "developer.bitski.com"
-        },
-        {
-          "type": "website",
-          "target": "sign.bitski.com"
-        }
-      ],
-      "out_of_scope": [
-
       ]
     }
   },
@@ -148,9 +166,26 @@
           "target": "clay.earth"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
+    }
+  },
+  {
+    "id": "2b2a4224-4ab6-4140-a834-89750ac77ad9",
+    "name": "Confido",
+    "offers_awards": false,
+    "url": "https://www.federacy.com/confido",
+    "targets": {
+      "in_scope": [
+        {
+          "type": "api",
+          "target": "api.confidotech.com"
+        },
+        {
+          "type": "website",
+          "target": "app.confidotech.com"
+        }
+      ],
+      "out_of_scope": []
     }
   },
   {
@@ -254,31 +289,6 @@
           "type": "website",
           "target": "federacy.com"
         }
-      ]
-    }
-  },
-  {
-    "id": "0e88790d-bb6d-490d-ac38-0fb00a3d1bab",
-    "name": "Hubble",
-    "offers_awards": false,
-    "url": "https://www.federacy.com/hubble",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "hubblehq.com"
-        },
-        {
-          "type": "api",
-          "target": "api.hubblehq.com"
-        },
-        {
-          "type": "website",
-          "target": "host.hubblehq.com"
-        }
-      ],
-      "out_of_scope": [
-
       ]
     }
   },
@@ -402,9 +412,7 @@
           "target": "gateway.mobileaction.co"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -515,9 +523,7 @@
           "target": "app.getofficely.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -549,35 +555,6 @@
     }
   },
   {
-    "id": "20050f10-e3a0-4d3e-8a62-7ae28c3b4ad0",
-    "name": "Paladin Cyber Bug Bounty",
-    "offers_awards": true,
-    "url": "https://www.federacy.com/paladin-cyber-bug-bounty",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "app.meetpaladin.com"
-        },
-        {
-          "type": "website",
-          "target": "www.meetpaladin.com"
-        },
-        {
-          "type": "api",
-          "target": "backend-v2.us.prod.meetpaladin.net"
-        },
-        {
-          "type": "website",
-          "target": "dashboard.meetpaladin.com"
-        }
-      ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
     "id": "46a12a65-f8e5-43d0-bd3a-3a3a64cfddcc",
     "name": "Parafin",
     "offers_awards": false,
@@ -593,33 +570,7 @@
           "target": "capital.parafin.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "033e8a8d-b88f-4d00-8d9a-ec94fc46ba74",
-    "name": "Polymesh Bug Bounty Program",
-    "offers_awards": true,
-    "url": "https://www.federacy.com/polymesh-bug-bounty-program",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "https://github.com/PolymeshAssociation/Polymesh/releases/tag/5.0.2"
-        },
-        {
-          "type": "website",
-          "target": "https://github.com/PolymeshAssociation/cryptography/tree/confidential-identity-v2"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "https://github.com/PolymathNetwork/Polymesh/tree/develop/contracts"
-        }
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -674,9 +625,7 @@
           "target": "app.rallyuxr.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -759,9 +708,7 @@
           "target": "app.spacelift.io"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -784,45 +731,7 @@
           "target": "admin.stacksi.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "fe333134-9a92-436b-97ac-034de93f6a1a",
-    "name": "Street Contxt",
-    "offers_awards": true,
-    "url": "https://www.federacy.com/street-contxt",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "federacyred.scx-stg.net"
-        },
-        {
-          "type": "website",
-          "target": "federacyblue.scx-stg.net"
-        },
-        {
-          "type": "api",
-          "target": "api.scx-stg.net"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "streetcontxt.com/blog"
-        },
-        {
-          "type": "website",
-          "target": "www.streetcontxt.com"
-        },
-        {
-          "type": "api",
-          "target": "api.streetcontxt.com"
-        }
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -837,9 +746,7 @@
           "target": "app.supportbee.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -854,9 +761,7 @@
           "target": "sylaps.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -888,28 +793,30 @@
     }
   },
   {
-    "id": "96290153-7c6b-4293-b0e7-8fcb0d32d188",
-    "name": "Unlisted Mobile, Inc.",
-    "offers_awards": false,
-    "url": "https://www.federacy.com/unlisted-mobile-inc",
+    "id": "20050f10-e3a0-4d3e-8a62-7ae28c3b4ad0",
+    "name": "Upfort",
+    "offers_awards": true,
+    "url": "https://www.federacy.com/upfort",
     "targets": {
       "in_scope": [
         {
+          "type": "website",
+          "target": "app.upfort.com"
+        },
+        {
+          "type": "website",
+          "target": "www.upfort.com"
+        },
+        {
           "type": "api",
-          "target": "https://app.unlistedapp.com"
+          "target": "backend-v2.us.prod.api.upfort.com"
         },
         {
-          "type": "mobile",
-          "target": "https://play.google.com/store/apps/details?id=com.unlistedmobile.unlisted"
-        },
-        {
-          "type": "mobile",
-          "target": "https://apps.apple.com/us/app/unlisted-private-phone-number/id539640635"
+          "type": "website",
+          "target": "dashboard.upfort.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -1020,9 +927,7 @@
           "target": "app.crowdai.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -1049,9 +954,7 @@
           "target": "delight.im"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -1070,33 +973,7 @@
           "target": "api.eqtble.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
-    }
-  },
-  {
-    "id": "6680d2fc-b545-4793-a5a5-33c2cc1d2c92",
-    "name": "knowyourteam",
-    "offers_awards": true,
-    "url": "https://www.federacy.com/knowyourteam",
-    "targets": {
-      "in_scope": [
-        {
-          "type": "website",
-          "target": "demo.knowyourteam.com"
-        }
-      ],
-      "out_of_scope": [
-        {
-          "type": "website",
-          "target": "knowyourteam.com/blog"
-        },
-        {
-          "type": "website",
-          "target": "knowyourteam.com"
-        }
-      ]
+      "out_of_scope": []
     }
   },
   {
@@ -1111,9 +988,7 @@
           "target": "https://okteto.com"
         }
       ],
-      "out_of_scope": [
-
-      ]
+      "out_of_scope": []
     }
   }
 ]
